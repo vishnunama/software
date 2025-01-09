@@ -328,7 +328,8 @@ function Home() {
 
 <div>
 <img src="img/icons/whatsapp.png" alt="WhatsApp Icon" className="fixed-icon-whatsapp" />
-  </div></div>
+  </div>
+  </div>
 
 
 
