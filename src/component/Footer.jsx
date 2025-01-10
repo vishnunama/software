@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
@@ -12,12 +13,12 @@ function Footer() {
           <div className="row align-items-center">
             <div className="col-12 col-lg-9">
               <div className="text-left">
-                <h3 className="g-text fadeInUp" data-wow-delay="0.3s">Get Your Quote or Call: (080) 5388-273-284</h3>
+                <h3 className="g-text fadeInUp" data-wow-delay="0.3s">Get Your Quote or Call:+919785211329</h3>
                 <h2 className="bold w-text mb-0">Are You Ready? Book Appointment Now!</h2>
               </div>
             </div>
             <div className="col-12 col-lg-3">
-              <a className="btn info-btn more-btn fadeInUp mt-s" data-wow-delay="0.6s" href="#">Contact us</a>
+              <a  href="https://wa.me/919785211329" target="_blank" className="btn info-btn more-btn fadeInUp mt-s" data-wow-delay="0.6s">Contact us</a>
             </div>
           </div>
         </div>
@@ -32,9 +33,10 @@ function Footer() {
               {/* Copywrite */}
               <div className="copywrite_text fadeInUp" data-wow-delay="0.2s">
                 <div className="footer-logo">
-                  <a href="#"><img src="img/core-img/logo.png" alt="logo" /> Kayzer </a>
+                  <Link to="/">
+  <img style={{width:"150px"}} src="img/icons/metablock-logos-main.png" alt="logo" />                     </Link>
                 </div>
-                <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit ducimus voluptatibus neque illo id repellat quisquam? Autem expedita earum quae laborum ipsum ad.</p>
+                {/* <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit ducimus voluptatibus neque illo id repellat quisquam? Autem expedita earum quae laborum ipsum ad.</p> */}
               </div>
               {/* Social Icon */}
               {/* <div className="footer-social-info fadeInUp" data-wow-delay="0.4s">
@@ -97,10 +99,12 @@ function Footer() {
               {/* Content Info */}
               <div className="contact_info mt-s text-center fadeInUp" data-wow-delay="0.4s">
                 <h5>CONTACT US</h5>
-                <p>Mailing Address:xx00 E. Union Ave</p>
-                <p>Suite 1100. Denver, CO 80237</p>
-                <p>+999 90932 627</p>
-                <p>support@yourdomain.com</p>
+                <p>30-A, Gopalpura Bypass Rd,</p>
+                <p>opp. Holiday Inn Hotel, opp. Holiday Inn,</p>
+                                <p>Sultan Nagar, Santi Nagar, Gurjar Ki Thadi,</p>
+                 <p>Jaipur, Rajasthan 302020</p>
+                <p>+91 935 859 3003</p>
+                <p>info@metablocktechnologies.in</p>
               </div>
             </div>
           </div>

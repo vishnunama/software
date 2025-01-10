@@ -34,12 +34,11 @@ const Header = () => {
     >
       <div className="container">
         {/* Brand */}
-        <a style={{ color: "black" }} className="navbar-brand" href="#">
+        <Link to="/" style={{ color: "black" }} className="navbar-brand" href="#">
           <span>
-            <img src="img/core-img/logo.png" alt="logo" />
+            <img style={{width:"150px"}} src="img/icons/metablock-logos-main.png" alt="logo" />
           </span>{" "}
-          Kayzer
-        </a>
+        </Link>
         {/* Toggler/collapsible Button */}
         <button
           className="navbar-toggler"
@@ -52,9 +51,9 @@ const Header = () => {
         <div className="collapse navbar-collapse" id="collapsibleNavbar">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <a className="nav-link" href="/">
+              <Link to="/" className="nav-link" >
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
               <Link to="./AboutUs" className="nav-link" href="/about-us">
@@ -71,11 +70,17 @@ const Header = () => {
                 FAQ
               </Link>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/contact-us">
-                Contact
-              </a>
+             <li className="nav-item">
+              <Link to="./AboutUs" className="nav-link" href="/about-us">
+                About Us
+              </Link>
             </li>
+            <li className="nav-item">
+              <Link to="./TermAndCondition" className="nav-link" href="/TermAndCondition">
+                Term & Condition
+              </Link>
+            </li>
+            
           </ul>
         </div>
         {/* DropDown Component */}

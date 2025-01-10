@@ -16,12 +16,12 @@ const FAQ = () => {
         <div className="section-heading text-center">
           <span>Important questions</span>
           <h2 className="d-blue bold fadeInUp" data-wow-delay="0.3s">
-            Frequently Questions
+          Frequently Asked Questions for Our Software Development Services
           </h2>
-          <p className="fadeInUp" data-wow-delay="0.4s">
+          {/* <p className="fadeInUp" data-wow-delay="0.4s">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis
             accumsan nisi Ut ut felis congue nisl hendrerit commodo.
-          </p>
+          </p> */}
         </div>
 
         <div className="row align-items-center">
@@ -77,24 +77,24 @@ const FAQ = () => {
 // FAQ Data
 const faqData = [
   {
-    question: "What are the objectives of this Service?",
+    question: "1. What technology features does MetaBlock use? ",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore omnis quaerat nostrum, pariatur ipsam sunt accusamus enim necessitatibus est fugiat, assumenda dolorem, deleniti corrupti cupiditate ipsum, dolorum voluptatum esse error?",
+      "We have certified and the huge experienced developers into a set of primary languages and frameworks which let them examine all the accessible options whilst selecting a top-grade technology platform for your software project.",
   },
   {
-    question: "What is the best features and services we deliver?",
+    question: "2. How much do you charge for software development and support?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore omnis quaerat nostrum, pariatur ipsam sunt accusamus enim necessitatibus est fugiat, assumenda dolorem, deleniti corrupti cupiditate ipsum, dolorum voluptatum esse error?",
+      "We treat every single project as a unique one to make customers fully satisfied. Our team deals with many innovative projects to find the commonalities, which can help us in rating your project. To know more about us, kindly contact us or download our brochure on software costs.",
   },
   {
-    question: "Why is this app important to me?",
+    question: "3. Do you offer software support and maintenance?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore omnis quaerat nostrum, pariatur ipsam sunt accusamus enim necessitatibus est fugiat, assumenda dolorem, deleniti corrupti cupiditate ipsum, dolorum voluptatum esse error?",
+      "We give a service level agreement (SLA) which guarantees a higher level of support from the time the solution goes live. This includes background system maintenance, team knowledge retention, and general user software support.",
   },
   {
-    question: "How may I take part in and purchase this Software?",
+    question: "4. Can the software be updated in the future as new technology becomes accessible?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore omnis quaerat nostrum, pariatur ipsam sunt accusamus enim necessitatibus est fugiat, assumenda dolorem, deleniti corrupti cupiditate ipsum, dolorum voluptatum esse error?",
+      "Certainly, we are prosperous to further develop, enhance and upgrade our work. ",
   },
 ];
 
