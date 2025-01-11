@@ -6,7 +6,7 @@ const DropDown = ({ isOpen, toggleSidebar }) => {
   return (
     <div className={`sidebar ${isOpen ? "open" : ""}`}>
       <div className="sidebar-header">
-        <h5>Sidebar</h5>
+       <img style={{width:"100px"}} src="img/icons/metablock-logos-main.png" alt="" />
         <button
           className="btn-close"
           onClick={toggleSidebar}
@@ -19,6 +19,7 @@ const DropDown = ({ isOpen, toggleSidebar }) => {
         <Link to="/" className="nav-link" onClick={toggleSidebar}>
           Home
         </Link>
+        
         <Link to="/AboutUs" className="nav-link" onClick={toggleSidebar}>
           About Us
         </Link>
@@ -31,6 +32,8 @@ const DropDown = ({ isOpen, toggleSidebar }) => {
         <Link to="/TermAndCondition" className="nav-link" onClick={toggleSidebar}>
           Terms & Conditions
         </Link>
+        <li className="lh-55px"><Link to="./ContactUs" onClick={toggleSidebar} className="btn login-btn ml-50" >Book a Call With Experts!</Link></li>
+        
       </div>
     </div>
   );

@@ -54,7 +54,7 @@ modern technologically enhanced world with our sophisticated systems in place.</
             <img src="img/icons/s55.png" className="mb-10" alt />
             <div>
               <h3 className="article__title w-text">Our Mission</h3>
-              <p className="g-text">Lorem ipsum dolor sit amet, conse ctetur adipi sicing elit conse sicing</p>
+              <p style={{lineHeight:"1.2rem"}} className="g-text  our-mission-text">Helping youth learn blockchain technology to become future leaders in the corporate world.</p>
             </div>
           </div>
         </div>
@@ -62,7 +62,7 @@ modern technologically enhanced world with our sophisticated systems in place.</
       <div className="col-12 col-lg-6 offset-lg-0 col-md-10 offset-md-1">
         <div className="who-we-contant mt-s">
           <div className="promo-section">
-            <h3 className="special-head ">What we offer</h3>
+            <h3 className="special-head ">Why Choose Us for IT Services?</h3>
           </div>
           <h4 className="d-blue fadeInUp" data-wow-delay="0.3s">MetaBlock: Providing Reliable IT Solutions for Blockchain, Gaming, Metaverse, and More</h4>
           <p className="fadeInUp" data-wow-delay="0.4s">MetaBlock provides easy and reliable IT solutions for all types of businesses. We specialize in blockchain, online platforms, metaverse projects, gaming, and software development. Our modern products and solutions help businesses stand out and grow.</p>
@@ -71,36 +71,55 @@ modern technologically enhanced world with our sophisticated systems in place.</
               <div className="col-md-12">
                 <div className="side-feature-list-item">
                   <img src="img/icons/check.png" className="check-mark-icon" alt />
-                  <div className="foot-c-info">Blockchain and Web3 experts offering solutions for NFTs, DeFi, wallets, DAOs, and tokens.</div>
+                  <div className="foot-c-info">1.Custom Solutions
+Tailored IT services designed to meet the unique needs of your business.</div>
                 </div>
               </div>
               <div className="col-md-12">
                 <div className="side-feature-list-item">
                   <img src="img/icons/check.png" className="check-mark-icon" alt />
-                  <div className="foot-c-info">Web Development offering secure, responsive, and high-performance websites for business success.</div>
+                  <div className="foot-c-info">2.	In-House Development
+Complete control over processes, customization, and data security.
+</div>
                 </div>
               </div>
               <div className="col-md-12">
                 <div className="side-feature-list-item">
                   <img src="img/icons/check.png" className="check-mark-icon" alt />
-                  <div className="foot-c-info">Providing software solutions like ERP, SaaS, LMS, and tools for business growth and efficiency.</div>
+                  <div className="foot-c-info">3.	Latest Technologies
+We use cutting-edge tools and systems to deliver innovative and efficient solutions.
+</div>
                 </div>
               </div>
               <div className="col-md-12">
                 <div className="side-feature-list-item">
                   <img src="img/icons/check.png" className="check-mark-icon" alt />
-                  <div className="foot-c-info">Offering diverse applications for cab booking, communication, learning, messaging, dating, horoscope, and rentals.</div>
+                  <div className="foot-c-info">4.	Comprehensive Testing
+Rigorous quality checks ensure high performance and reliability.
+</div>
                 </div>
               </div>
                 <div className="col-md-12">
                 <div className="side-feature-list-item">
                   <img src="img/icons/check.png" className="check-mark-icon" alt />
-                  <div className="foot-c-info">Focused on gaming with active games like Rummy, Poker, Aviator, tournaments, and engaging designs.</div>
+                  <div className="foot-c-info">5.	Timely Delivery
+We prioritize deadlines to ensure your projects are completed on time.
+</div>
                 </div>
               </div>  <div className="col-md-12">
                 <div className="side-feature-list-item">
                   <img src="img/icons/check.png" className="check-mark-icon" alt />
-                  <div className="foot-c-info">Providing Metaverse solutions for games, avatars, lands, and interactive virtual events.</div>
+                  <div className="foot-c-info">6.	Dedicated Support
+Ongoing after-sale support for troubleshooting, updates, and maintenance.
+</div>
+                </div>
+              </div>
+               <div className="col-md-12">
+                <div className="side-feature-list-item">
+                  <img src="img/icons/check.png" className="check-mark-icon" alt />
+                  <div className="foot-c-info">7.	Expert Team
+A team of skilled professionals committed to delivering top-notch IT solutions.
+</div>
                 </div>
               </div>
             </div>
@@ -176,9 +195,7 @@ modern technologically enhanced world with our sophisticated systems in place.</
       <div className="section-heading text-center">
         <span>Our Services</span>
         <h2 className="d-blue bold fadeInUp" data-wow-delay="0.3s">What we offers</h2>
-        <p className="fadeInUp" data-wow-delay="0.4s">It means that MetaBlock is one of the providers of the easy and reliable IT solutions for any kind
-of companies. Our focus is on blockchain, online platforms, metaverse projects, gaming, and software development.
-No matter the type of requirement, MetaBlock offers today’s products and solutions that would definitely relevate the existence of any business</p>
+        <p className="fadeInUp" data-wow-delay="0.4s">MetaBlock provides easy, reliable IT solutions for businesses, focusing on blockchain, metaverse, gaming, and software development. We deliver modern solutions to elevate any business.</p>
       </div>
       <div className="row">
         <div className="col-12 col-md-6 col-lg-4 ">
@@ -189,7 +206,7 @@ No matter the type of requirement, MetaBlock offers today’s products and solut
             </div>
             <div className="service-content">
               <h6 className="d-blue bold">Blockchain / Web3</h6>
-              <p>MetaBlock is a blockchain and Web3 software development company providing token solutions, DEX, DeFi, NFTs, wallets, and DAOs. Here we offer the business problematic and secure, scalable and customized solutions for being successful in Web3 environment</p>
+              <p>MetaBlock is a leading blockchain and Web3 software development company offering innovative and future-ready solutions. Our expertise includes token creation, decentralized exchanges (DEX), Decentralized Finance (DeFi) platforms, NFT marketplaces, crypto wallets, and Decentralized Autonomous Organizations (DAOs). We provide businesses with secure, scalable, and customized solutions designed to tackle complex challenges and ensure success in the Web3 environment</p>
             </div>
           </div>
         </div>
@@ -201,7 +218,7 @@ No matter the type of requirement, MetaBlock offers today’s products and solut
             </div>
             <div className="service-content">
               <h6 className="d-blue bold">Web Development</h6>
-              <p>MetaBlock specializes in designing secure, efficient, and accessible websites using the latest technologies. We create responsive, scalable, and high-performance sites that help businesses succeed and enhance their online presence for growth and advancement.</p>
+              <p>MetaBlock specializes in creating secure, efficient, and accessible websites using cutting-edge technologies. We design responsive, scalable, and high-performance websites tailored to meet the unique needs of businesses. Our focus is on delivering solutions that enhance online presence, drive growth, and ensure long-term success.</p>
             </div>
           </div>
         </div>
@@ -213,7 +230,7 @@ No matter the type of requirement, MetaBlock offers today’s products and solut
             </div>
             <div className="service-content">
               <h6 className="d-blue bold">Software Development</h6>
-              <p>MetaBlock offers software development services to simplify business tasks. Our ERP software streamlines daily operations, SaaS expands online businesses, and our LMS with live classes enhances learning. We also provide tools for travel, restaurants, and marketing .</p>
+              <p>MetaBlock specializes in developing a wide range of software solutions, including ERP systems, SaaS platforms, LMS with live classes, CRM tools, inventory management systems, HR management software, billing and invoicing software, POS systems, e-learning platforms, custom analytics tools, travel management software, restaurant management systems, marketing automation tools, hospital management systems, and supply chain management software Etc.</p>
             </div>
           </div>
         </div>
@@ -237,7 +254,8 @@ No matter the type of requirement, MetaBlock offers today’s products and solut
             </div>
             <div className="service-content">
               <h6 className="d-blue bold">Gaming Development</h6>
-              <p>MetaBlock specializes in the gaming industry, offering popular games like Daman, Rummy, Aviator, and Poker. We also provide tournament services with engaging events for players. Our games feature top designs, levels, and great graphics for an immersive experience.</p>
+              <p>MetaBlock excels in the gaming industry, delivering a diverse range of popular games such as Rummy, Ludo, Teen Patti, Car Racing, Dream11, Chess, Sudoku, Fantasy Cricket, call-break, Snakes and Ladders, and many more. We also specialize in hosting tournament services, offering engaging and competitive events for players.
+</p>
             </div>
           </div>
         </div>
@@ -249,7 +267,7 @@ No matter the type of requirement, MetaBlock offers today’s products and solut
             </div>
             <div className="service-content">
               <h6 className="d-blue bold">Metaverse</h6>
-              <p>MetaBlock offers comprehensive Metaverse development solutions, including Metaverse games, avatars, lands, and event platforms for high-quality, interactive virtual experiences. We aim to create unique, engaging, and challenging digital environments.</p>
+              <p>MetaBlock provides end-to-end Metaverse development solutions, including Metaverse games, custom avatars, virtual lands, and event platforms for immersive and interactive digital experiences. Our goal is to design unique, engaging, and dynamic virtual environments that push the boundaries of innovation and creativity in the digital world.</p>
             </div>
           </div>
         </div>
@@ -267,7 +285,8 @@ No matter the type of requirement, MetaBlock offers today’s products and solut
               <h3 className="special-head">WHO WE ARE ?</h3>
             </div>
             <h4 className="d-blue wow fadeInUp bold" data-wow-delay="0.3s">A brief introduction to our team and expertise in Web & Blockchain Development</h4>
-            <p className="wow fadeInUp" data-wow-delay="0.4s">Unlike our competitors, our services are personalized, secure, and infinitely scalable web and blockchain solutions. We combine talent with quality and achieve results that provide a positive impact on your business. Our main value is the customer focus and guarantee that every job is done with the maximum professionally.
+            <p className="wow fadeInUp" data-wow-delay="0.4s">MetaBlock Technologies, your trusted software company based in Jaipur! We specialize in web development and blockchain technology, offering a diverse range of services including blockchain Development, web and mobile applications, software development, and game development. With our strong background in blockchain development, DEX development, coin and token creation, as well as Decentralized MLM Development & Games.
+Our in-house team is dedicated to providing the best IT solutions at affordable prices and given time. Our aim is to provide our clients with unique solutions that are specifically adapted to their needs, going above and beyond their expectations. Let's collaborate to bring your ideas to life!.
 </p>
             <div className="row">
               <div className="col-12 col-sm-6 col-md-6">
@@ -276,7 +295,7 @@ No matter the type of requirement, MetaBlock offers today’s products and solut
                  
                   {/* Single Cool Detail */}
                   <div className="cool_fact_detail">
-                    <h3><span className="counter">3215</span>+</h3>
+                    <h3><span className="counter">500</span>+</h3>
                     <h2>Happy Clients</h2>
                   </div>
                 </div>
@@ -287,11 +306,12 @@ No matter the type of requirement, MetaBlock offers today’s products and solut
                  
                   {/* Single Cool Detail */}
                   <div className="cool_fact_detail">
-                    <h3><span className="counter">230</span>+</h3>
-                    <h2>Awards Won</h2>
+                    <h3><span className="counter">50</span>+</h3>
+                    <h2> team member</h2>
                   </div>
                 </div>
               </div>
+              
             </div>
           </div>
         </div>
@@ -305,7 +325,7 @@ No matter the type of requirement, MetaBlock offers today’s products and solut
     <div className="section-heading text-center">
       <span>How It Works</span>
       <h2 className="wow fadeInUp d-blue bold" data-wow-delay="0.3s">Brands We Have Worked With</h2>
-      <p className="wow fadeInUp" data-wow-delay="0.4s">MetaBlock collaborates with diverse brands, delivering innovative solutions in gaming, finance, ecommerce, metaverse, analytics, and more.</p>
+      {/* <p className="wow fadeInUp" data-wow-delay="0.4s">MetaBlock collaborates with diverse brands, delivering innovative solutions in gaming, finance, ecommerce, metaverse, analytics, and more.</p> */}
     </div>
     <div className="row">
       <div className="col-12 col-md-6 col-lg-4">

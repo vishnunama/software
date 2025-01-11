@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const FAQ = () => {
   // State to manage the active FAQ index
@@ -10,7 +11,27 @@ const FAQ = () => {
   };
 
   return (
+
+    <>
+
+           {/* <div className="breadcumb-content">
+  <div className="container h-100">
+    <div className="row h-100 align-items-center">
+      <div className="col-12">
+        <nav aria-label="breadcrumb" className="breadcumb--con text-center">
+          <h2 className="w-text title wow fadeInUp " data-wow-delay="0.2s">FAQ</h2>
+          <ol className="breadcrumb justify-content-center wow fadeInUp bg-transparent" data-wow-delay="0.4s">
+            <li className="breadcrumb-item"><Link to="/">Home</Link></li>
+            <li className="breadcrumb-item active" aria-current="page">FAQ</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div> */}
     
+    
+   
     <div className="faq-timeline-area section-padding-100-85" id="faq">
       <div className="container">
         <div className="section-heading text-center">
@@ -71,6 +92,7 @@ const FAQ = () => {
         </div>
       </div>
     </div>
+     </>
   );
 };
 

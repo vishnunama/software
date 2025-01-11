@@ -9,7 +9,7 @@ function AboutUs() {
     <div className="row h-100 align-items-center">
       <div className="col-12">
         <nav aria-label="breadcrumb" className="breadcumb--con text-center">
-          <h2 className="w-text title wow fadeInUp" data-wow-delay="0.2s">About us</h2>
+          <h2 className="w-text title wow fadeInUp " data-wow-delay="0.2s">About us</h2>
           <ol className="breadcrumb justify-content-center wow fadeInUp bg-transparent" data-wow-delay="0.4s">
             <li className="breadcrumb-item"><a href="#">Home</a></li>
             <li className="breadcrumb-item active" aria-current="page">About us</li>
@@ -21,72 +21,91 @@ function AboutUs() {
 </div>
 
  <section className="about-us-area section-padding-100 relative" id="about">
-  <div className="container">
-    <div className="row align-items-center">
-      <div className="col-12 col-lg-6 offset-lg-0 col-md-12 no-padding-left">
-        <div className="welcome-meter about-sec-wrapper wow fadeInUp" data-wow-delay="0.4s">
-          <img src="img/core-img/about-sec1.png" className="about-i" alt />
-          <div className="article special box-shadow">
-            <img src="img/icons/s55.png" className="mb-10" alt />
-            <div>
-              <h3 className="article__title w-text">Our Mission</h3>
-              <p className="g-text">Lorem ipsum dolor sit amet, conse ctetur adipi sicing elit conse sicing</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="col-12 col-lg-6 offset-lg-0 col-md-10 offset-md-1">
-        <div className="who-we-contant mt-s">
-          <div className="promo-section">
-            <h3 className="special-head ">What we offer</h3>
-          </div>
-          <h4 className="d-blue fadeInUp" data-wow-delay="0.3s">MetaBlock: Providing Reliable IT Solutions for Blockchain, Gaming, Metaverse, and More</h4>
-          <p className="fadeInUp" data-wow-delay="0.4s">MetaBlock provides easy and reliable IT solutions for all types of businesses. We specialize in blockchain, online platforms, metaverse projects, gaming, and software development. Our modern products and solutions help businesses stand out and grow.</p>
-          <div className="list-wrap align-items-center">
-            <div className="row">
-              <div className="col-md-12">
-                <div className="side-feature-list-item">
-                  <img src="img/icons/check.png" className="check-mark-icon" alt />
-                  <div className="foot-c-info">Blockchain and Web3 experts offering solutions for NFTs, DeFi, wallets, DAOs, and tokens.</div>
-                </div>
-              </div>
-              <div className="col-md-12">
-                <div className="side-feature-list-item">
-                  <img src="img/icons/check.png" className="check-mark-icon" alt />
-                  <div className="foot-c-info">Web Development offering secure, responsive, and high-performance websites for business success.</div>
-                </div>
-              </div>
-              <div className="col-md-12">
-                <div className="side-feature-list-item">
-                  <img src="img/icons/check.png" className="check-mark-icon" alt />
-                  <div className="foot-c-info">Providing software solutions like ERP, SaaS, LMS, and tools for business growth and efficiency.</div>
-                </div>
-              </div>
-              <div className="col-md-12">
-                <div className="side-feature-list-item">
-                  <img src="img/icons/check.png" className="check-mark-icon" alt />
-                  <div className="foot-c-info">Offering diverse applications for cab booking, communication, learning, messaging, dating, horoscope, and rentals.</div>
-                </div>
-              </div>
+   <div className="container">
+     <div className="row align-items-center">
+       <div className="col-12 col-lg-6 offset-lg-0 col-md-12 no-padding-left">
+         <div className="welcome-meter about-sec-wrapper wow fadeInUp" data-wow-delay="0.4s">
+           <img src="img/core-img/about-sec1.png" className="about-i" alt />
+           <div className="article special box-shadow">
+             <img src="img/icons/s55.png" className="mb-10" alt />
+             <div>
+               <h3 className="article__title w-text">Our Mission</h3>
+               <p style={{lineHeight:"1.2rem"}} className="g-text  our-mission-text">Helping youth learn blockchain technology to become future leaders in the corporate world.</p>
+             </div>
+           </div>
+         </div>
+       </div>
+       <div className="col-12 col-lg-6 offset-lg-0 col-md-10 offset-md-1">
+         <div className="who-we-contant mt-s">
+           <div className="promo-section">
+             <h3 className="special-head ">Why Choose Us for IT Services?</h3>
+           </div>
+           <h4 className="d-blue fadeInUp" data-wow-delay="0.3s">MetaBlock: Providing Reliable IT Solutions for Blockchain, Gaming, Metaverse, and More</h4>
+           <p className="fadeInUp" data-wow-delay="0.4s">MetaBlock provides easy and reliable IT solutions for all types of businesses. We specialize in blockchain, online platforms, metaverse projects, gaming, and software development. Our modern products and solutions help businesses stand out and grow.</p>
+           <div className="list-wrap align-items-center">
+             <div className="row">
+               <div className="col-md-12">
+                 <div className="side-feature-list-item">
+                   <img src="img/icons/check.png" className="check-mark-icon" alt />
+                   <div className="foot-c-info">1.Custom Solutions
+ Tailored IT services designed to meet the unique needs of your business.</div>
+                 </div>
+               </div>
+               <div className="col-md-12">
+                 <div className="side-feature-list-item">
+                   <img src="img/icons/check.png" className="check-mark-icon" alt />
+                   <div className="foot-c-info">2.	In-House Development
+ Complete control over processes, customization, and data security.
+ </div>
+                 </div>
+               </div>
+               <div className="col-md-12">
+                 <div className="side-feature-list-item">
+                   <img src="img/icons/check.png" className="check-mark-icon" alt />
+                   <div className="foot-c-info">3.	Latest Technologies
+ We use cutting-edge tools and systems to deliver innovative and efficient solutions.
+ </div>
+                 </div>
+               </div>
+               <div className="col-md-12">
+                 <div className="side-feature-list-item">
+                   <img src="img/icons/check.png" className="check-mark-icon" alt />
+                   <div className="foot-c-info">4.	Comprehensive Testing
+ Rigorous quality checks ensure high performance and reliability.
+ </div>
+                 </div>
+               </div>
+                 <div className="col-md-12">
+                 <div className="side-feature-list-item">
+                   <img src="img/icons/check.png" className="check-mark-icon" alt />
+                   <div className="foot-c-info">5.	Timely Delivery
+ We prioritize deadlines to ensure your projects are completed on time.
+ </div>
+                 </div>
+               </div>  <div className="col-md-12">
+                 <div className="side-feature-list-item">
+                   <img src="img/icons/check.png" className="check-mark-icon" alt />
+                   <div className="foot-c-info">6.	Dedicated Support
+ Ongoing after-sale support for troubleshooting, updates, and maintenance.
+ </div>
+                 </div>
+               </div>
                 <div className="col-md-12">
-                <div className="side-feature-list-item">
-                  <img src="img/icons/check.png" className="check-mark-icon" alt />
-                  <div className="foot-c-info">Focused on gaming with active games like Rummy, Poker, Aviator, tournaments, and engaging designs.</div>
-                </div>
-              </div>  <div className="col-md-12">
-                <div className="side-feature-list-item">
-                  <img src="img/icons/check.png" className="check-mark-icon" alt />
-                  <div className="foot-c-info">Providing Metaverse solutions for games, avatars, lands, and interactive virtual events.</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <Link to="./Services" className="btn info-btn green-btn mt-30 fadeInUp" data-wow-delay="0.6s" href="/about-us">Read More</Link>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+                 <div className="side-feature-list-item">
+                   <img src="img/icons/check.png" className="check-mark-icon" alt />
+                   <div className="foot-c-info">7.	Expert Team
+ A team of skilled professionals committed to delivering top-notch IT solutions.
+ </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+           <Link to="./Services" className="btn info-btn green-btn mt-30 fadeInUp" data-wow-delay="0.6s" href="/about-us">Read More</Link>
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
 
 <section className="how section-padding-100-70 relative map-bg map-before">
   <div className="container">

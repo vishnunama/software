@@ -39,6 +39,7 @@ const Header = () => {
             <img style={{width:"150px"}} src="img/icons/metablock-logos-main.png" alt="logo" />
           </span>{" "}
         </Link>
+        
         {/* Toggler/collapsible Button */}
         <button
           className="navbar-toggler"
@@ -49,6 +50,7 @@ const Header = () => {
         </button>
         {/* Navbar links */}
         <div className="collapse navbar-collapse" id="collapsibleNavbar">
+          
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
               <Link to="/" className="nav-link" >
@@ -70,16 +72,13 @@ const Header = () => {
                 FAQ
               </Link>
             </li>
-             <li className="nav-item">
-              <Link to="./AboutUs" className="nav-link" href="/about-us">
-                About Us
-              </Link>
-            </li>
+           
             <li className="nav-item">
               <Link to="./TermAndCondition" className="nav-link" href="/TermAndCondition">
                 Term & Condition
               </Link>
             </li>
+<li className="lh-55px"><Link to="./ContactUs" className="btn login-btn ml-50" >Book a Call With Experts!</Link></li>
             
           </ul>
         </div>

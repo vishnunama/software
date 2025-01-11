@@ -575,7 +575,7 @@ ol {
     top: -10%;
     width: 100%;
     height: 100%;
-    background: url(../img/core-img/map.png) no-repeat top;
+    /* background: url(../img/core-img/map.png) no-repeat top; */
     background-size: cover;
 }
 
@@ -660,7 +660,7 @@ ol {
     font-size: 12px !important;
     text-transform: uppercase;
     line-height: 33px;
-    padding: 0 20px;
+    padding: 10px 10px;
     min-width: 100px;
     color: #fff !important;
     background: #0067da;
@@ -697,6 +697,14 @@ ol {
     background-image: linear-gradient(to right, #21d397 0%, #7450fe 51%, #21d397 100%);
     -webkit-transition: all 500ms;
     transition: all 500ms;
+}
+
+@media(max-width:380px){
+    .info-btn{
+    font-size: 11px;
+        min-width: 90px !important;
+        
+    }
 }
 
 /*
@@ -970,7 +978,7 @@ nav {
 }
 
 .hero-section.ai2 {
-    background: url('../img/bg-img/ai1.png') no-repeat top center;
+    background: url('../assets/img/bg-img/ai1.png') no-repeat top center;
     background-size: cover;
 }
 
@@ -4547,7 +4555,7 @@ textarea:required {
    
    height: 40vh;
     z-index: 10;
-    background: url(../img/bg-img/wavy-bg.png) no-repeat center
+    background: url(../assets/img/bg-img/bread-bg.jpg) no-repeat center
 }
 
 .breadcumb--con {
@@ -4563,6 +4571,7 @@ textarea:required {
 }
 
 .breadcumb--con .title {
+    color: #333333 !important;
     font-size: 42px;
     margin-bottom: 15px;
     margin-left: 0;
@@ -4573,7 +4582,7 @@ textarea:required {
 .breadcrumb-item>a {
     font-size: 13px;
     text-transform: uppercase;
-    color: #fff;
+    /* color: #fff; */
 }
 
 .page-item:first-child .page-link {
@@ -23655,4 +23664,11 @@ a.text-dark:hover {
 .fixed-icon-whatsapp:hover {
     transform: scale(1.2);
     /* Scale up the image by 20% */
+}
+@media (max-width: 320px){
+    .our-mission-text {
+
+        display: none !important;
+    }
+
 }

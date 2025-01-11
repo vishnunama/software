@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { WOW } from "wowjs";
 import "animate.css";
 import Home from "./component/Home";
 import Footer from "./component/Footer";
@@ -10,23 +9,10 @@ import Services from "./component/Services";
 import FAQ from "./component/FAQ";
 import TermAndCondition from "./TermAndCondition";
 import { ScrollToTop } from "./component/ScrollToTop";
+import ContactUs from "./component/ContactUs";
 
 function App() {
-  useEffect(() => {
-    try {
-      const wow = new WOW({
-        boxClass: "wow",
-        animateClass: "animate__animated",
-        offset: 0,
-        mobile: true,
-        live: true,
-      });
-      wow.init();
-      console.log("WOW.js initialized");
-    } catch (error) {
-      console.error("WOW.js initialization error:", error);
-    }
-  }, []);
+
 
   return (
     <>
@@ -41,6 +27,9 @@ function App() {
           <Route path="/Services" element={<Services />} />
           <Route path="/FAQ" element={<FAQ />} />
                     <Route path="/TermAndCondition" element={<TermAndCondition />} />
+                                        <Route path="/ContactUs" element={<ContactUs />} />
+
+                    
 
 
           
